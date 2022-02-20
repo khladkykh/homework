@@ -1,0 +1,98 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: rgba(28, 82, 221, 0.56);
+    color: white;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1700px;
+
+}
+div{
+    display: flex;
+    margin: auto;
+    
+    }
+.logo{
+    width: 42px;
+    height: 42px;
+    background: linear-gradient(90deg, #345AA4 0%, #3F009C 154.76%);
+    margin-right: 11px;
+    margin-left: 103px;
+}
+.logo1{
+    padding: 10px;
+    background: white;
+}
+h1{
+    font-size: 48px;
+    font-weight: 600;
+    margin-right: 324px;
+}
+ul li{
+    display: inline;
+    margin-right: 60px;
+    font-size: 30px;
+}
+ul li:first-child{
+    font-weight: 600;
+}
+ul li:last-child{
+    padding-right: 0px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.button1{
+    background: linear-gradient(90deg, #345AA4 -28.35%, rgba(63, 0, 156, 0) 153.96%);
+    margin-left: 40px;
+    width: 164px;
+    height: 61px;
+    border-radius: 13px;
+    color: white;
+    font-weight: 500;
+    font-size: 24px;
+    border: none;
+}
+.navigation{
+    margin-top: 32px;
+}
+.block1{
+    flex-direction: column;
+    margin-top: 218px auto;
+    padding-left: 103px;
+}
+
+h2{
+    font-size: 72px;
+    font-weight: 600;
+    margin-bottom: 0%;
+    width: 650px;
+}
+p{
+    font-size: 36px;
+    font-weight: 400;
+    margin-top: 0% auto;
+}
+.button2{
+    background: linear-gradient(90deg, #345AA4 0%, rgba(63, 0, 156, 0.92) 164.26%);
+    color: white;
+    margin-top: 55px;
+    height: 85px;
+    width: 277px;
+    border: none;
+    border-radius: 13px;
+    font-size: 36px;
+    font-weight: 500;
+}
+.image{
+    margin: 60px;
+    height: 678px;
+    width: 851px;
+}
