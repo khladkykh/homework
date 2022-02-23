@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 250px;
+}
+.media-block{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 17px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.first-block{
+    display: flex;
+    flex-direction: column;
+    padding: 80px 150px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    color: #8A6D2F;
+    background: #FAC960;
+    
+}
+h1, h2{
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 54px;
+}
+h1{
+    margin-bottom: 0;
+}
+h2{
+    margin-top: 0;
+}
+form{
+    display: flex;
+    flex-direction:row;
+    gap: 0;  
+}
+input{
+    padding: 20px 500px 10px 0;
+    border: none;
+}
+::placeholder{
+    padding: 20px 500px 20px 36px;
+    font-size: 30px;
+    font-weight: 400;
+    color: #999999;
+}
+button{
+    background: #A8863D;
+    color: white;
+    border: none;
+    padding: 10px 37px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.second-block{
+    display: flex;
+    flex-direction: column;
+    padding: 80px 230px;
+    width: 100%;
+    text-align: center;
+    color: #00000066;
+    background: #F2F2F2;
+}
+h3{
+    font-size: 37px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-bottom: 0%;
+}
+p{
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 32px;
+}
+.img-infinity{
+    margin-top: 56px;
+}
+.third-block{
+    display: flex;
+    flex-direction: column;
+    padding: 80px 230px;
+    width: 100%;
+    text-align: center;
+    color: #00000066;
+}
+h4{
+    font-size: 37px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-bottom: 0%;
+}
+p{
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 32px;
+}
+.img-phone{
+    margin-top: 38px;
+}
+.fourth-block{
+    display: flex;
+    flex-direction: column;
+    margin-top: -400px;
+    padding: 80px 0px;
+    width: 100%;
+    text-align: center;
+    background: #FAC960;
+    }
+h5{
+    font-size: 37px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-bottom: 0%;
+    color: #8A6D2F;
+}
+p{
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 32px;
+    color: #00000066;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    padding: 80px 250px;
+    width: 100%;
+    align-items: center;
+    background: #F2F2F2;
+    background-repeat: repeat-y;
+}
+.footer-logo{
+    margin-bottom: 24px;
+}
+.footer-media{
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+}
